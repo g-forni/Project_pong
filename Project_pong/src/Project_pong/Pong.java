@@ -28,7 +28,7 @@ public class Pong extends Canvas implements Runnable,KeyListener {
 		this.addKeyListener(this);
 		player = new Player(0, HEIGHT/2 - 10);
 		adversary = new Adversary(WIDTH-5, HEIGHT/2 - 10 ,0.04);
-		ball = new Ball(WIDTH/2,HEIGHT/2+10);
+		ball = new Ball(WIDTH/2,HEIGHT/2);
 		this.layer = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 	}
 	
