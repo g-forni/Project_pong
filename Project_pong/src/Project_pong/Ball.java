@@ -30,7 +30,7 @@ public class Ball {
 	}
 	
 	public void tick() {
-	    if (y + dy * speed + height >= Pong.HEIGHT || y + dy * speed <= 21) {
+	    if (y + dy * speed + height >= Pong.HEIGHT || y + dy * speed <= 20) {
 	        dy *= -1; 
 	    }
 
