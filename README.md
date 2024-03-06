@@ -16,7 +16,7 @@ cd Project_pong\Project_pong\src
 ```
 Isso criara um clone do repositório e acessa a pasta do package
 
-###Rodando
+### Rodando
 
 Digite:
 
